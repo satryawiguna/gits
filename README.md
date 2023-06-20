@@ -1,0 +1,5 @@
+Kompleksitas Waktu: O(n)
+
+1. Fungsi "CheckBalancedBracket" melakukan iterasi sebanyak n kali, dimana n adalah panjang string input. Setiap iterasi memiliki operasi konstan untuk melakukan push ke stack atau memeriksa kecocokan tanda kurung. Oleh karena itu, kompleksitas waktu keseluruhan adalah O(n). Kompleksitas Ruang: O(n)
+
+2. Dalam implementasi ini, digunakan stack untuk menyimpan tanda kurung pembuka yang belum ditutup. Jika semua tanda kurung pembuka belum ditutup pada akhir iterasi, maka stack akan berisi n/2 elemen dimana n adalah panjang string input. Oleh karena itu, kompleksitas ruang keseluruhan adalah O(n/2) yang dapat disederhanakan menjadi O(n). Dengan demikian, implementasi ini memiliki kompleksitas waktu O(n) dan kompleksitas ruang O(n), dimana n adalah panjang string input.
